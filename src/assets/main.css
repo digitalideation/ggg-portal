@@ -3,5 +3,16 @@
 =============================================== */
 
 body{
-  background-color: white;
+  background-image: url('/src/assets/gradient-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
