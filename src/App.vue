@@ -10,6 +10,8 @@ import { RouterLink, RouterView } from "vue-router";
       <nav>
         <RouterLink to="/">Start</RouterLink>
         <RouterLink to="/mail">Mail</RouterLink>
+        <RouterLink to="/code">Code</RouterLink>
+        <RouterLink to="/upload">Upload</RouterLink>
       </nav>
     </div>
   </header>
@@ -18,6 +20,7 @@ import { RouterLink, RouterView } from "vue-router";
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
 @import "@/assets/base.css";
 @import "@/assets/main.css";
 

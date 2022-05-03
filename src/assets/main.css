@@ -3,16 +3,38 @@
 =============================================== */
 
 body{
+  font-family: 'Inter', sans-serif;
   background-image: url('/src/assets/gradient-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.main{
+#app{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
+}
+
+main{
+  background: white;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+h1{
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+
+input{
+  border: none;
+  background: #F4F4F4;
+  border-radius: 50px;
+  padding: 10px 15px;
 }

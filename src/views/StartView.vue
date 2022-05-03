@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from "@/components/TheWelcome.vue";
+import btn from "@/components/btn-primary.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
+  <main class="intro">
+    <h1>Introduction</h1>
+    <p>this is an introduction</p>
+    <btn />
   </main>
 </template>

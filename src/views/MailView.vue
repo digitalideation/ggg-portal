@@ -1,15 +1,15 @@
+<script setup>
+import btn from "@/components/btn-primary.vue";
+</script>
+
 <template>
-  <div class="mail">
-    <h1>This is an about page</h1>
-  </div>
+  <main class="mail">
+    <h1>E-Mail</h1>
+    <input type="text" placeholder="irgendöpper@stud.hslu.ch">
+    <btn />
+  </main>
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
+
 </style>
