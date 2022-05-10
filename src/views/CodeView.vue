@@ -1,5 +1,4 @@
 <script setup>
-import btn from "@/components/btn-primary.vue";
 </script>
 
 <template>
@@ -9,7 +8,11 @@ import btn from "@/components/btn-primary.vue";
     <input type="text" placeholder="2">
     <input type="text" placeholder="3">
     <input type="text" placeholder="4">
-    <btn />
+    <RouterLink to="/upload">
+      <button>
+        <span>button</span>
+      </button>
+    </RouterLink>
   </main>
 </template>
 

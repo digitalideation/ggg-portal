@@ -1,11 +1,13 @@
-<script setup>
-import btn from "@/components/btn-primary.vue";
-</script>
+<script setup></script>
 
 <template>
   <main class="intro">
     <h1>Introduction</h1>
     <p>this is an introduction</p>
-    <btn />
+    <RouterLink to="/mail">
+      <button>
+        <span>button</span>
+      </button>
+    </RouterLink>
   </main>
 </template>

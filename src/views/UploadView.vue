@@ -1,5 +1,4 @@
 <script setup>
-import btn from "@/components/btn-primary.vue";
 </script>
 
 <template>
@@ -18,7 +17,11 @@ import btn from "@/components/btn-primary.vue";
     <p>link</p>
     <input type="text">
 
-    <btn />
+    <RouterLink to="/">
+      <button>
+        <span>button</span>
+      </button>
+    </RouterLink>
   </main>
 </template>
 
